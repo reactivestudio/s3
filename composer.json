@@ -1,0 +1,23 @@
+{
+    "name": "reactivestudio/yii2-aws-s3",
+    "description": "Yii2 component for AWS S3",
+    "keywords": ["yii2", "aws", "s3", "aws-s3", "yii2-aws", "yii2-s3"],
+    "homepage": "https://github.com/reactivestudio/yii2-aws-s3",
+    "type": "library",
+    "require": {
+        "aws/aws-sdk-php": "~3.17",
+        "php": "^7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Bushin",
+            "email": "dima.bushin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "reactivestudio\\s3\\": "src/"
+        }
+    }
+}
